@@ -23,7 +23,7 @@ public class AddFuelEntryTest extends BaseTest {
         Date today = Calendar.getInstance().getTime();
 
         loginPage.login(Constants.USERNAME, Constants.PASSWORD);
-        landingPage.selectAccount();
+       // landingPage.selectAccount();
         permissionsPage.selectWhileUsingTheAppPermission();
         homePage.clickBrowseTab();
         browsePage.selectVehiclesEntry();

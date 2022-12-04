@@ -24,3 +24,4 @@
 ## Troubleshooting
 - When running the tests many times, the app becomes flaky and when trying to add a new fuel type (line 29 inside VehiclesPage), a wrong popup is being opened. Instead of the correct popup, there is a different one that opens which has similar options, but more of them and they cannot be clicked. This looks like a bug in the application. If this happens, stop the test and rerun it. On the right side of the toolbar you will see a red rectangle. Press it in order to stop the test.
 - Appium server can become flaky when left running for longer. In the terminal where Appium has been started you might see some errors being thrown or when running the tests you might see an error about a session not being opened. If this happens, stop Appium server (`CTRL + C`), and start it again (`appium`)
+- If the test expects you to select an account after logging in (Mobila QA), stop the test, uncomment line 26 from `AddFuelEntryTest` and rerun the test

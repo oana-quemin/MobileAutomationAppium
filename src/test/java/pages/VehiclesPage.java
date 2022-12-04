@@ -56,7 +56,7 @@ public class VehiclesPage {
     }
 
     private void uploadDocument() throws InterruptedException {
-        WebElement addDocumentsButton = driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[6]/android.widget.TextView[1]"));
+        WebElement addDocumentsButton = driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[3]/android.widget.TextView[1]"));
         addDocumentsButton.click();
 
         WebElement chooseFileButton = driver.findElement(By.id("com.fleetio.go_app:id/dialog_bottom_sheet_add_document_btn_choose_file"));
