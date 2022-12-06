@@ -7,6 +7,7 @@
 - Enable develop options on the phone (https://developer.android.com/studio/debug/dev-options)
 - Install `adb` on the computer (https://developer.android.com/studio/releases/platform-tools)
 - Install `Files` app on the phone if not already installed
+- Install `Fleetio go` app on the phone if not already installed and be sure to be logged out
 
 ## Running the test
 - Start IntelliJ
